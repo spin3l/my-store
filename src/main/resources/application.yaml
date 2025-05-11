@@ -23,6 +23,10 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
 
+springdoc:
+  swagger-ui:
+    path: /docs
+
 logging:
   level:
     org:
